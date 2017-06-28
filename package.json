@@ -10,7 +10,7 @@
     "cf-logs": "git+https://github.com/codefresh-io/cf-logs.git#ceba4f309e52a077747a0c6bf9c3ad02e762dc4b",
     "dockerode": "^2.3.0",
     "docker-events": "0.0.2",
-    "firebase": "^2.4.1",
+    "firebase": "^4.1.3",
     "forever": "^0.15.3",
     "lodash": "^4.15.0",
     "q": "^1.4.1"
