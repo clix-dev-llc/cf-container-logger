@@ -8,3 +8,4 @@ coverage
 state.json
 *.log
 .idea
+.vscode/launch.json
