@@ -17,12 +17,6 @@ steps:
         - yarn lint
         - yarn no-onlys
 
-  unit_test_step:
-    image: codefresh/node-tester-image:8.1.4
-    environment:
-        - COVERALLS_TOKEN=${{COVERALLS_TOKEN}}
-    commands:
-        - yarn test:ci
 
   build_step:
     title: "Building production image"
