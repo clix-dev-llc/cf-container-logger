@@ -13,7 +13,8 @@
     "firebase": "git+https://github.com/codefresh-io/firebase.git#80b2ed883ff281cd67b53bd0f6a0bbd6f330fed5",
     "forever": "^0.15.3",
     "lodash": "^4.15.0",
-    "q": "^1.4.1"
+    "q": "^1.4.1",
+    "redis": "^2.8.0"
   },
   "devDependencies": {
     "chai": "^3.0.0",
