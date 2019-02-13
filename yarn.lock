@@ -2,10 +2,9 @@
 # yarn lockfile v1
 
 
-"@codefresh-io/cf-common@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@codefresh-io/cf-common/-/cf-common-0.0.7.tgz#8e7eaa26decfdf04852407bde0cbca8e5856e18c"
-  integrity sha512-gyJ4T0nkUQDxq0ZC0lDJjaoI2ykMFyQKQQMrFqWpAQENA5znIVcqDlwtahyprMZIum2Ys5H82yUT6m+yon77Bg==
+"@codefresh-io/cf-common@git+https://github.com/codefresh-io/cf-common.git#baf55af5f2f7c6dc2bc6c57b6ac3d3a34ae31096":
+  version "0.0.41"
+  resolved "git+https://github.com/codefresh-io/cf-common.git#baf55af5f2f7c6dc2bc6c57b6ac3d3a34ae31096"
   dependencies:
     cf-errors "git+https://github.com/codefresh-io/cf-errors.git#3ca76e5d303364021c453e3a95d3117874ef75b1"
     crypto "0.0.3"
