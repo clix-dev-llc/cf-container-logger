@@ -1,4 +1,4 @@
-FROM node:8.1.4-alpine
+FROM node:10.13.0-alpine
 
 WORKDIR /root/cf-runtime
 
