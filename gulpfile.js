@@ -19,7 +19,7 @@ gulp.task('no.onlys', function (callback) {
 
 
 gulp.task('lint', ['clean'], function () {
-	return gulp.src(['**/*.js', '!**/node_modules/**', '!**/server/migration/**', '!coverage/**/*.js'])
+	return gulp.src(['lib**/*.js', '!**/node_modules/**', '!**/server/migration/**', '!coverage/**/*.js'])
 		.pipe(jshint({lookup: true}))
 		.pipe(jshint.reporter('default'))
 		.pipe(jshint.reporter('fail'));
