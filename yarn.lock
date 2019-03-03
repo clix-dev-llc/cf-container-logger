@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@codefresh-io/task-logger@git+https://github.com/codefresh-io/task-logger.git#b079979918085523b51db8e8737c66be59635622":
+"@codefresh-io/task-logger@git+https://github.com/codefresh-io/task-logger.git#6dee9ffb0ca4f0dccf1326b171d831f3ee873973":
   version "0.0.2"
-  resolved "git+https://github.com/codefresh-io/task-logger.git#b079979918085523b51db8e8737c66be59635622"
+  resolved "git+https://github.com/codefresh-io/task-logger.git#6dee9ffb0ca4f0dccf1326b171d831f3ee873973"
   dependencies:
     cf-errors "^0.1.11"
     crypto "0.0.3"
