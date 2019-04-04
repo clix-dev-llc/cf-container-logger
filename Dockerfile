@@ -9,10 +9,10 @@ COPY package.json ./
 COPY yarn.lock ./
 
 # install cf-runtime required binaries
-RUN apk add --no-cache --virtual deps python make g++ && \
+RUN apk update && apk add --no-cache --virtual deps python make g++ && \
     yarn install --frozen-lockfile --production && \
     yarn cache clean && \
-    apk del deps && \
+    apk del deps && apk upgrade && \
     rm -rf /tmp/*
 
 # copy app files
