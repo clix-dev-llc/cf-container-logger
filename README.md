@@ -12,3 +12,4 @@
         # io.codefresh.loggerStrategy
             # logs - will get all container logs from the beginning
             # attach - will get all container logs from the point where attach was enabled. usefull for getting all interactive i/o
+            
